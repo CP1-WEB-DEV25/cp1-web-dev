@@ -44,12 +44,17 @@
 // }
 
 //Exercício 4:
-let exclamacao = "!"
-for(let exclamacao = 0; exclamacao <= 50; exclamacao ++){
-    console.log("!", exclamacao)
-}
+// let exclamacao = "!"
+// for(let exclamacao = 0; exclamacao <= 50; exclamacao ++){
+//     console.log("!", exclamacao)
+// }
 
 //Exercício 5:
+
+let senha = 1234
+let senhacerta = parseInt(prompt("Digite a senha de admin: "))
+if(senhacerta == senha)
+    alert("login realizado com sucesso!")
 //Exercício 6:
 //Exercício 7:
 //Exercício 8:
