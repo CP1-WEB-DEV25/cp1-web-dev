@@ -17,7 +17,6 @@ console.log(valor != valor2)
 console.log(valor == valor2)
 console.log(valor >= valor2)
 //Exercício 3:
-
 let peso = parseFloat(prompt("Qual seu peso?"));
 let altura = parseFloat(prompt("Qual sua altura?"));
 
@@ -43,11 +42,6 @@ switch (faixa) {
         console.log("Acima do peso.");
         break;
 }
-
-
-
-
-
 
 //Exercício 4:
 //Exercício 5:
