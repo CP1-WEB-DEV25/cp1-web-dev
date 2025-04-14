@@ -51,11 +51,29 @@
 
 //Exercício 5:
 
-let senha = 1234
-let senhacerta = parseInt(prompt("Digite a senha de admin: "))
-if(senhacerta == senha)
-    alert("login realizado com sucesso!")
+// let senha = 1234
+// let senhacerta = parseInt(prompt("Digite a senha de admin: "))
+// if(senhacerta == senha)
+//     alert("login realizado com sucesso!")
 //Exercício 6:
+
+let nota1 = 6.5
+let nota2 = 7
+let nota3 = 5.4
+let nota4 = 5.6
+let nota5 = 8.9
+let nota6 = 0
+let nota7 = 4.2
+let media = (nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7) / 7
+let minima = media >= 6 ? "Passou": "Não passou";
+console.log(minima);
+if (media >= 6){
+    alert("Você passou!")
+}
+else{
+    alert("Você não passou.")
+}
+
 //Exercício 7:
 //Exercício 8:
 //Exercício 9:
