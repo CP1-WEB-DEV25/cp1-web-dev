@@ -99,4 +99,8 @@ dadosEstudanteDiv.appendChild(idadeParagrafo);
 dadosEstudanteDiv.appendChild(cursoParagrafo);
 dadosEstudanteDiv.appendChild(anoParagrafo);
 //Exercício 8:
+
 //Exercício 9:
+let numString ="3123.223";
+console.log(parseFloat(numString))
+console.log(typeof numString)
