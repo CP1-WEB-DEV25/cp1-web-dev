@@ -99,8 +99,13 @@ dadosEstudanteDiv.appendChild(idadeParagrafo);
 dadosEstudanteDiv.appendChild(cursoParagrafo);
 dadosEstudanteDiv.appendChild(anoParagrafo);
 //Exercício 8:
+let info ="Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas.";
+console.log(info.slice(141, 143))
+console.log(info.slice(48,50))
+console.log(info.slice(27,34))
+console.log(info.slice(92, 99))
 
 //Exercício 9:
-let numString ="3123.223";
-console.log(parseFloat(numString))
-console.log(typeof numString)
+// let numString ="3123.223";
+// console.log(parseFloat(numString))
+// console.log(typeof numString)
