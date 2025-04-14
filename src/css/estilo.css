@@ -1,0 +1,14 @@
+body {
+    background-color: papayawhip; 
+    font-family: sans-serif; 
+    display: flex;
+    flex-direction: column;
+}
+
+#dadosEstudante {
+    background-color: rgb(236, 109, 109); 
+    padding: 20px;
+    text-align: left;
+    align-self: flex-start;
+    border-radius: 8px;
+}

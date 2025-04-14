@@ -57,23 +57,46 @@
 //     alert("login realizado com sucesso!")
 //Exercício 6:
 
-let nota1 = 6.5
-let nota2 = 7
-let nota3 = 5.4
-let nota4 = 5.6
-let nota5 = 8.9
-let nota6 = 0
-let nota7 = 4.2
-let media = (nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7) / 7
-let minima = media >= 6 ? "Passou": "Não passou";
-console.log(minima);
-if (media >= 6){
-    alert("Você passou!")
-}
-else{
-    alert("Você não passou.")
-}
+// let nota1 = 6.5
+// let nota2 = 7
+// let nota3 = 5.4
+// let nota4 = 5.6
+// let nota5 = 8.9
+// let nota6 = 0
+// let nota7 = 4.2
+// let media = (nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7) / 7
+// let minima = media >= 6 ? "Passou": "Não passou";
+// console.log(minima);
+// if (media >= 6){
+//     alert("Você passou!")
+// }
+// else{
+//     alert("Você não passou.")
+// }
 
 //Exercício 7:
+const nome = "Henrique";
+const idade = 19;
+const curso = "Engenharia de software";
+const ano = 2025;
+
+const dadosEstudanteDiv = document.getElementById("dadosEstudante");
+
+const nomeParagrafo = document.createElement("p");
+nomeParagrafo.textContent = `Nome: ${nome}`;
+
+const idadeParagrafo = document.createElement("p");
+idadeParagrafo.textContent = `Idade: ${idade}`;
+
+const cursoParagrafo = document.createElement("p");
+cursoParagrafo.textContent = `Curso: ${curso}`;
+
+const anoParagrafo = document.createElement("p");
+anoParagrafo.textContent = `Ano: ${ano}`;
+
+dadosEstudanteDiv.appendChild(nomeParagrafo);
+dadosEstudanteDiv.appendChild(idadeParagrafo);
+dadosEstudanteDiv.appendChild(cursoParagrafo);
+dadosEstudanteDiv.appendChild(anoParagrafo);
 //Exercício 8:
 //Exercício 9:
